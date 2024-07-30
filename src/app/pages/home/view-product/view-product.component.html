@@ -1,0 +1,12 @@
+<div *ngIf="product" class="product-container">
+  <h1>{{ product.title }}</h1>
+  <img [src]="product.thumbnail" alt="{{ product.title }}">
+  <p>{{ product.description }}</p>
+  <ul>
+    <li><strong>Price:</strong> {{ product.price }}</li>
+    <li><strong>Stock:</strong> {{ product.stock }}</li>
+    <li><strong>Brand:</strong> {{ product.brand }}</li>
+    <li><strong>Category:</strong> {{ product.category }}</li>
+    <!-- Add other product details as needed -->
+  </ul>
+</div>

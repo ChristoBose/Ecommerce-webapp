@@ -1,0 +1,26 @@
+.btn
+{
+  /* background-color:rgb(3, 139, 139); */
+  background: linear-gradient(to right, rgb(255, 234, 2), rgb(255, 255, 166));
+  color: green;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  transition: background 0.7s;
+}
+
+.btn:hover{
+  background: linear-gradient(to right, rgb(255, 255, 166), rgb(255, 234, 2));
+}
+
+.card {
+  transition: transform 0.3s;
+  height: 650px;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
